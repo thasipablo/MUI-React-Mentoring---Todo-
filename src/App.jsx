@@ -22,10 +22,10 @@ function App() {
       </Box>
       <Container sx={{ pt: 4 }}>
         <Grid container spacing={4}>
-          <Grid item xs={4} md={3}>
+          <Grid item xs={12} md={3}>
             <LeftSide />
           </Grid>
-          <Grid item xs={8} md={9}>
+          <Grid item xs={12} md={9}>
             <RightSide />
           </Grid>
         </Grid>
