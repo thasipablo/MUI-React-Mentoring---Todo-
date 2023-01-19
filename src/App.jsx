@@ -8,15 +8,22 @@ function App() {
 
   return (
     <Box>
-      <Box sx={{ p: 2, backgroundColor: "#068AD4", color: "#fff" }}>
+      <Box
+        sx={{
+          p: "27px",
+          pl: "88px",
+          backgroundColor: "#068AD4",
+          color: "#fff",
+        }}
+      >
         <Typography fontSize="20px" fontWeight="bold">
-          <Container>TODO APP</Container>
+          TODO APP
         </Typography>
       </Box>
       <Container sx={{ pt: 4 }}>
         <Grid container spacing={4}>
           <Grid item xs={4} md={3}>
-            <LeftSide/>
+            <LeftSide />
           </Grid>
           <Grid item xs={8} md={9}>
             <RightSide />
